@@ -4,10 +4,11 @@ node_modules/
 /dist/
 *.log
 *.tsbuildinfo
-
+package-lock.json
 # FrontEnd Vite build files and node modules
 FrontEnd/node_modules/
 FrontEnd/dist/
+FrontEnd/package-lock.json
 
 # Vite cache
 FrontEnd/.vite/
