@@ -1,0 +1,26 @@
+# Backend node modules and environment files
+node_modules/
+.env
+/dist/
+*.log
+*.tsbuildinfo
+
+# FrontEnd Vite build files and node modules
+FrontEnd/node_modules/
+FrontEnd/dist/
+
+# Vite cache
+FrontEnd/.vite/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vscode settings and other IDE related files
+.vscode/
+.idea/
