@@ -119,7 +119,7 @@
   "scripts": {
     "dev": "nodemon -r dotenv/config index.js",
     "start": "node index.js",
-    "build": " npm install && npm install --prefix ./FrontEnd && npm run build --prefix ./FrontEnd"
+    "build": " npm install && npm install --prefix FrontEnd && npm run build --prefix FrontEnd"
 
   },
   "author": "",
